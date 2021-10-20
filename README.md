@@ -1,10 +1,13 @@
 # PRECODE - A Generic Model Extension to Prevent Deep Gradient Leakage
-
-![](./attack_samples.png)
-
 This repository contains the implementation of PRECODE realized as a variational bottleneck as well as an example jupyter notebook where the PRECODE module is used.
-The paper can be found at: https://arxiv.org/abs/2108.04725
+The paper including all empirical results can be found at: https://arxiv.org/abs/2108.04725
+<p align="center">
+  <img src="./attack_samples.png" alt="summary" width="500">
+</p>
+Neural networks are trained on CIFAR-10, CIFAR-100, and Medical MNIST. During training, gradients are used for inversion attacks aiming to reconstruct original training data. Without defense (Original Model), training data can be entirely reconstructed. Noisy gradients prevent reconstruction to some extent but reduce model performance. Our proposed PRECODE extension entirely prevents reconstruction without impacting the training process.
 
+
+### Please cite as:
 ```
 @article{scheliga2021precode,
   title={PRECODE-A Generic Model Extension to Prevent Deep Gradient Leakage},
