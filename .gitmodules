@@ -1,0 +1,3 @@
+[submodule "invertinggradients"]
+	path = invertinggradients
+	url = https://github.com/JonasGeiping/invertinggradients.git
