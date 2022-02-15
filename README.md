@@ -1,6 +1,6 @@
 # PRECODE - A Generic Model Extension to Prevent Deep Gradient Leakage
 This repository contains the implementation of PRECODE realized as a variational bottleneck as well as an example jupyter notebook where the PRECODE module is used.
-The paper including all empirical results can be found at: https://arxiv.org/abs/2108.04725
+The paper including all empirical results can be found at: https://openaccess.thecvf.com/content/WACV2022/html/Scheliga_PRECODE_-_A_Generic_Model_Extension_To_Prevent_Deep_Gradient_WACV_2022_paper.html
 <p align="center">
   <img src="./attack_samples.png" alt="summary" width="500">
 </p>
@@ -9,11 +9,12 @@ Neural networks are trained on CIFAR-10, CIFAR-100, and Medical MNIST. During tr
 
 ### Please cite as:
 ```
-@article{scheliga2021precode,
+@inproceedings{scheliga2022precode,
   title={PRECODE-A Generic Model Extension to Prevent Deep Gradient Leakage},
   author={Scheliga, Daniel and M{\"a}der, Patrick and Seeland, Marco},
-  journal={arXiv preprint arXiv:2108.04725},
-  year={2021}
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  pages={1849--1858},
+  year={2022}
 }
 ```
 
